@@ -5,10 +5,12 @@
 }
 
 .sidebar__header{
+    background-color: rgb(245, 245, 248);
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 18px;
     border-right: 1px solid lightgray;
+    align-items: center;
 }
 .sidebar__headerRight{
     display: flex;
@@ -16,10 +18,15 @@
     justify-content: space-between;
     min-width: 10vw;
 }
+.sidebar_search{
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
 .sidebar__searchContainer{
     display: flex;
     align-items: center;
-    background-color: #f6f6f6;
+    background-color: rgb(245, 245, 248);
     height: 30px;
     padding: 10px;
     border-radius: 20px;
@@ -27,20 +34,20 @@
 .sidebar__searchContainer > input{
     border: none;
     margin-left: 10px;
-    padding: 10px 0px;
     font-size: 17px;
-    background-color: #f6f6f6;
+    background-color: rgb(245, 245, 248);
 }
 .sidebar__searchContainer > input:focus{
     outline: none;
-  
-
 }
 .sidebar__searchContainer > .MuiSvgIcon-root{
     color: gray;
     padding: 10px;
+    font-size: 30px;
 }
+
 .sidebar__chatList{
+    background-color: rgb(245, 245, 248);
     display: flex;
     flex-direction: column;
     background-color: greenyellow;
